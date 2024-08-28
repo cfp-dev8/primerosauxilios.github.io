@@ -1,0 +1,119 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background: #c8102e; /* Rojo para el encabezado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilo de la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #c8102e; /* Rojo para la barra de navegación */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+/* Estilo del contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    border-top: 2px solid #c8102e; /* Línea arriba de la sección en rojo */
+    border-bottom: 2px solid #c8102e; /* Línea abajo de la sección en rojo */
+    padding: 20px 0; /* Espaciado interno arriba y abajo */
+    margin-bottom: 20px; /* Espaciado entre secciones */
+}
+
+h2 {
+    color: #c8102e; /* Rojo para los encabezados de sección */
+}
+
+/* Estilo del pie de página */
+footer {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #c8102e; /* Rojo para el botón */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Añade espacio abajo */
+}
+
+.footer-button:hover {
+    background-color: #a3071e; /* Rojo más oscuro al pasar el cursor */
+}
+
+/* Estilo del botón fijo */
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #c8102e; /* Rojo para el botón fijo */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.fixed-button:hover {
+    background-color: #a3071e; /* Rojo más oscuro al pasar el cursor */
+}
+
+/* Estilo del botón Ingresar */
+.ingresar-button {
+    background-color: #c8102e; /* Rojo para el botón Ingresar */
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 15px;
+    display: inline-block;
+}
+
+.ingresar-button:hover {
+    background-color: #a3071e; /* Rojo más oscuro al pasar el cursor */
+    transform: scale(1.05);
+}
